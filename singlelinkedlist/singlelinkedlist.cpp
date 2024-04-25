@@ -13,6 +13,8 @@ void addNode() {
 	int nim;
 	string name;
 	Node* nodeBaru = new Node();
+	cout << "Masukkan NIM : "; 
+		cin >> nim;
 }
 int main()
 {
