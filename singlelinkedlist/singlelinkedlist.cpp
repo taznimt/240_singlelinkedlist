@@ -17,6 +17,20 @@ void addNode() {
 	cin >> nim;
 	cout << "Masukkan Nama : ";
 	cin >> name;
+	nodeBaru->noMhs = nim;
+	nodeBaru->name = name;
+
+	if (START == NULL || nim <= START->noMhs) {
+		if (START != NULL || nim <= START->noMhs)
+		{
+			cout << " NIM sudah ada " << endl;
+			return;
+		}
+		Node* previous = START;
+		
+	}
+
+	
 
 }
 int main()
