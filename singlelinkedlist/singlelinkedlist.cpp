@@ -12,6 +12,7 @@ Node* START = NULL;
 void addNode() {
 	int nim;
 	string name;
+	Node* nodeBaru = new Node();
 }
 int main()
 {
